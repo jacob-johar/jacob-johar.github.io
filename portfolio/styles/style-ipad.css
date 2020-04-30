@@ -13,6 +13,7 @@ body {
 .name {
     margin: 10px 0;
     font-size: 0.8em;
+    color:black;
 }
 
 .name h2 {
