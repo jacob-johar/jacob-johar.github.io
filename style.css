@@ -1,0 +1,89 @@
+
+.StoreName
+{
+    color:black;
+}
+.logo {
+    background-color: #D3D3D3;
+    background-size: cover;
+}
+
+.Shop {
+
+    background-color: #8C001A;
+    background-size: cover;
+
+}
+
+.main {
+
+    background-color: #D3D3D3;
+    background-size: cover;
+}
+
+.sub {
+    background-color: #856c8b;
+    background-size: cover;
+}
+.b2 {
+    background-color: #96fc85;
+    background-size: cover;
+}
+
+.header-text {
+
+    font-size : 30pt;
+
+    font-family : 'fantasy';
+
+}
+
+
+
+th{
+
+    font-size : 20pt;
+
+    height: 55px;
+
+     font-family: 'Lucida Sans';
+
+    
+
+}
+
+.bold{
+
+    font-weight:bold;
+
+}
+
+td, th { padding:10px 20px;  }
+
+#table2 td {
+
+    border: 6px inset black;
+
+    padding:10px 20px;
+
+    background-color: blue;
+
+    height: 50px;
+
+    width: 400px;
+
+}
+
+.reflect{
+
+    color: brown;
+
+    font-family: 'Lucida Sans';
+
+    font-weight: bold;}
+
+
+
+.sub1 {
+    background-color: #a4c5c6;
+}
