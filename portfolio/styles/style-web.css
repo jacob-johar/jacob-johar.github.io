@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    //background-color: #2E3769;
+    background-color: #000000
+}
+
+h1, h2 {
+    margin: 0;
+  color: #d8d8d8;
+  
+}
+
+.container {
+    margin-top: 2em;
+}
+
+.name{
+    margin: 15px 0;
+    font-size: 1.8em;
+}
+
+.title {
+    font-size: 1.2em;
+    color: white;
+}
+
+.bio {
+    padding-top: 10%;
+    font-size: 1.2em;
+    font-weight: 200;
+   // color: rgb(24, 73, 73);
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0 5%;
+}
+
+
+
+.navigation {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.content {
+    float: right;
+    width: 70%;
+    margin-top: 0px;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+.navigation .socialicons ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+.navigation .socialicons li {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+}
+
+.navigation .nav-links ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+.navigation .nav-links li {
+    padding-top: 25px;
+    font-size: 1.4em;
+}
+
+.nav-links {
+    padding-top: 20px;
+    display: block;
+    color: white;
+}
+
+.nav-links li:hover {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(32, 179, 184);
+}
+
+.nav-links a {
+    padding-left: 10px;
+    clear: both;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-links {
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    font-size: 0.9em;
+}
+
+.contact .highlight {
+    //color: #0B6ADF;
+    color : black;
+}
+
+/* Projects & Demo */
+
+.projects {
+     margin: 0 5%;
+    font-size: 0.9em;
+}
+.project-head h1 {
+    margin: 0 5%;
+}
+.project {
+    width: 25%;
+    display: inline-block;
+    padding: 2%;
+    text-align: center;
+}
+
+.project img {
+    width: 92%;
+    border-radius: 5px;
+    padding: 2px;
+    height: auto;
+    border: 0.5px solid rgb(128, 132, 136);
+}
+
+.project-name {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.project-desc {
+    font-size: 0.8em;
+}
+
+.demo-links {
+    width: 100%;
+    margin: 0;
+}
+
+.demo-links a {
+    border: 1px solid darkgray;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.demo-links a:first-child {
+    margin-right: 15%;
+}
+
+.demo-links a:hover {
+    background-color: rgb(32, 179, 184);
+    color: white;
+}
+
+/* Skills */
+
+.skill-head h1 {
+    margin: 0 5%;
+}
+
+
+.skills-container {
+  width: 90%;
+  background-color: #ddd;
+  font-size: 0.8em;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.skills {
+  text-align: left;
+  padding-left: 20px;
+  line-height: 30px;
+  color: white;
+  border-radius: 20px;
+}
+
+.js {width: 90%; background-color: turquoise;}
+.frameworks {width: 90%; background-color: turquoise;}
+.responsive {width: 95%; background-color: turquoise;}
+.css {width: 95%; background-color: turquoise;}
+.aspnet {width: 85%; background-color: turquoise;}
+.php {width: 80%; background-color: turquoise;}
+
+
+/* Resume */
+
+.resume-head { 
+    overflow: hidden;
+}
+
+.resume-head h1 {
+    float: left;
+    width: 50%;
+    margin: 0 5%;
+}
+
+.resume-head a {
+    text-transform: uppercase;
+	padding: 6px 25px;
+    width: 100px;
+    float: right;
+    border: 1px solid #000;
+    background-color: white;
+}
+
+.resume-head a:hover {
+    background-color: rgb(32, 179, 184);
+    color: #fff;
+    cursor: pointer;
+     margin: 0 5%;
+}
+
+.resume-head a:focus {
+	outline: 0;
+     margin: 0 5%;
+}
+
+.resume-details {
+    overflow: hidden;
+     margin: 0 5%;
+}
+
+.education {
+    float: right;
+    width: 45%;
+}
+
+.education {
+    width: 45%;
+    float: left;
+    
+}
+
+.fa-file-pdf-o {
+    padding-left: 2%;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+}
+
+.graduation-year {
+    font-size: 0.85em;
+    font-weight: bold;
+  
+}
+
+.program-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  
+}
+
+.college {
+    font-size: 1em;
+}
+
+.edu-details {
+    padding-bottom: 4%;
+}
+
+.ipad-grad-details {
+    display: none;
+   
+}
+
+.work-experience {
+    float: left;
+    width: 45%;
+    padding-right: 5%;
+   
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+  
+}
+
+.work-details:first-child {
+    padding-bottom: 5%;
+}
+
+.position{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-left: 2%;
+
+}
+
+.company {
+    font-size: 1.2em;
+    font-weight: bold;
+   
+}
+
+.company:hover {
+    color: rgb(32, 179, 184);
+}
+
+.job{
+    font-size: 0.9em;
+}
+
+.contact {
+    font-size: 1.1em;
+     margin: 0 5%;
+}
+
+.footer-image {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+

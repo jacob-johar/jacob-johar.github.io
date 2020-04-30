@@ -1,0 +1,280 @@
+body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    background-color: white;
+}
+
+.section {
+    margin-top: 5%;
+}
+
+.name h2 {
+    font-size: 1.6em;
+}
+
+.title{
+    color : black;
+}
+
+.bio {
+    padding-top: 5%;
+    font-size: 1em;
+    font-weight: 500;
+     color: black;
+     font-family: 'Nanum Gothic', sans-serif;
+}
+
+.projects-web {
+    display: none !important;
+}
+
+.navigation {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 999;
+}
+
+.profile-image {
+    float: left;
+    margin-top: 8px; 
+}
+
+.profile-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.quickprofile {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+#nav-links {
+    clear: both;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.navigation .nav-links li {
+    font-size: 1.3em;
+}
+
+.nav-links a {
+  
+    color: black;
+}
+
+.content {
+    float: right;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.contact p {
+    font-size: 0.9em;
+}
+
+.contact .highlight {
+    color: #0B6ADF;
+}
+
+/* Hamburger menu */
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin: 6px 40px 0 0;
+}
+
+.hamburger .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Projects */
+
+.project img {
+    display: none;
+}
+
+.project {
+    font-size: 1.2em;
+    display: block;
+    width: 60%;
+    margin: 1.5%;
+}
+
+
+/* Skills */
+
+.skills-container {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 40px;
+    font-size: 0.8em;
+    border-radius: 20px;
+  }
+  
+  .skills {
+    text-align: left;
+    padding-left: 20px;
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .js {width: 90%; background-color: turquoise;}
+  .frameworks {width: 90%; background-color: turquoise;}
+  .responsive {width: 95%; background-color: turquoise;}
+  .css {width: 95%; background-color: turquoise;}
+  .aspnet {width: 85%; background-color: turquoise;}
+  .php {width: 80%; background-color: turquoise;}
+  
+
+/* Resume */
+
+.education {
+    width: 40%;
+    float: left;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.graduation-year {
+    font-size: 16px;
+}
+
+.program-name {
+    font-weight: bold; 
+}
+
+.college {
+    font-size: 20px;
+}
+
+.resume {
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 0 25px;
+    position: relative;
+    width: fit-content;
+    float: right;
+    border: 1px solid #000;
+}
+
+.resume:hover {
+    cursor: pointer;
+}
+
+.resume:focus {
+	outline: 0;
+}
+
+.education {
+    width: 100%;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.graduation-year {
+    display: none;
+}
+
+.program-name {
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+.college {
+    font-size: 1em;
+    display: none;
+}
+
+.edu-details {
+    padding-bottom: 4%;
+}
+
+.ipad-grad-details {
+    font-size: 0.85em;
+    font-weight: bold;
+    display: block;
+}
+
+.work-experience {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.position{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.company {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.company:hover {
+    color: rgb(32, 179, 184);
+}
+
+.job{
+    font-size: 0.9em;
+    display: none;
+}
+
+.contact {
+    font-size: 1.1em;
+}
