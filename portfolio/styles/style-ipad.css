@@ -10,6 +10,11 @@ body {
     margin-top: 5%;
 }
 
+.name {
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
 .name h2 {
     font-size: 1.6em;
 }
