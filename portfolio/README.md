@@ -1,3 +1,3 @@
 # portfolio-website
 
-My portfolio is live [here](http://emreji.com/)
+My portfolio is live [here](https://jacob-johar.github.io/portfolio/)
